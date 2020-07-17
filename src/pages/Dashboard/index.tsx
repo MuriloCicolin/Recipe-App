@@ -3,15 +3,15 @@ import React from 'react';
 import Header from '../../components/Header';
 import Recipe from '../../components/Recipe';
 
-import { RecipeContainer } from './styles';
+import { RecipesContainer } from './styles';
 
 const Dashboard: React.FC = () => {
   return (
     <>
       <Header />
-      <RecipeContainer>
+      <RecipesContainer>
         <Recipe />
-      </RecipeContainer>
+      </RecipesContainer>
     </>
   );
 };

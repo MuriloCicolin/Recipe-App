@@ -1,45 +1,47 @@
 import styled from 'styled-components';
-import { FiEdit, FiTrash } from 'react-icons/fi';
 
 export const Container = styled.div`
-  position: absolute;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   display: grid;
+  width: 100%;
+  margin: 0 auto;
+  padding: 40px;
+  position: absolute;
 
-  div {
-    img {
-      border-radius: 8px;
-    }
-  }
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
 
-  section {
-    background: #393e46;
+  header {
+    border-radius: 8px;
     width: 350px;
-    margin-top: -40px;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 40px;
-    border-radius: 3px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
-    p {
-      color: #eee;
-      font-weight: 500;
-      margin-left: 20px;
+    img {
+      width: 100%;
+    }
+
+    section {
+      position: relative;
+      display: flex;
+      background: #393e46;
+      padding: 15px;
+      margin-top: -50px;
+      align-items: center;
+      justify-content: space-between;
+
+      p {
+        color: #eee;
+        font-weight: 500;
+      }
+
+      div {
+        display: flex;
+        .button-icon {
+          margin-right: 10px;
+          background: transparent;
+          border: 0;
+          color: #eee;
+        }
+      }
     }
   }
-`;
-
-export const SectionIcons = styled.div`
-  margin-right: 20px;
-`;
-
-export const EditIcon = styled(FiEdit)`
-  cursor: pointer;
-  margin-left: 5px;
-`;
-
-export const TrashIcon = styled(FiTrash)`
-  cursor: pointer;
 `;
