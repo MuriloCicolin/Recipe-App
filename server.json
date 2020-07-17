@@ -1,28 +1,40 @@
 {
-  "foods": [
+  "recipes": [
     {
       "id": 1,
-      "name": "Ao molho",
-      "description": "Macarrão ao molho branco, fughi e cheiro verde das montanhas.",
-      "price": "19.90",
-      "available": true,
-      "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food1.png"
+      "name": "Bife a Milanesa",
+      "type": "Almoço",
+      "numper_persons": 2,
+      "ingredients": "1 kg de carne, 2 pacotes de arroz, 1 saco de feijão",
+      "instructions": "Deixar de molho por 5 minutos, fazer o preparo com teste de comida",
+      "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
     },
     {
       "id": 2,
-      "name": "Veggie",
-      "description": "Macarrão com pimentão, ervilha e ervas finas colhidas no himalaia.",
-      "price": "21.90",
-      "available": true,
-      "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food2.png"
+      "name": "Chapa louca",
+      "type": "Janta",
+      "numper_persons": 3,
+      "ingredients": "1 kg de carne, 2 pacotes de arroz, 1 saco de feijão",
+      "instructions": "Deixar de molho por 5 minutos, fazer o preparo com teste de comida",
+      "image": "https://images.unsplash.com/photo-1493770348161-369560ae357d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
     },
     {
       "id": 3,
-      "name": "A la Camarón",
-      "description": "Macarrão com vegetais de primeira linha e camarão dos 7 mares.",
-      "price": "25.90",
-      "available": true,
-      "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food3.png"
+      "name": "Salmão Grelhado",
+      "type": "Almoço",
+      "numper_persons": 1,
+      "ingredients": "1 kg de carne, 2 pacotes de arroz, 1 saco de feijão",
+      "instructions": "Deixar de molho por 5 minutos, fazer o preparo com teste de comida",
+      "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60"
+    },
+    {
+      "id": 4,
+      "name": "Bife a Milanesa",
+      "type": "Almoço",
+      "numper_persons": 2,
+      "ingredients": "1 kg de carne, 2 pacotes de arroz, 1 saco de feijão",
+      "instructions": "Deixar de molho por 5 minutos, fazer o preparo com teste de comida",
+      "image": "https://images.unsplash.com/photo-1432139555190-58524dae6a55?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60"
     }
   ]
 }

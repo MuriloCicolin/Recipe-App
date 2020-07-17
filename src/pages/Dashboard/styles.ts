@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const RecipesContainer = styled.div`
-  /* width: 100%;
+  width: 100%;
 
   margin: 0 auto;
   padding: 40px;
@@ -9,5 +9,5 @@ export const RecipesContainer = styled.div`
   display: grid;
 
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 32px; */
+  grid-gap: 32px;
 `;
