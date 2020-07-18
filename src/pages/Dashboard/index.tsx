@@ -3,6 +3,8 @@ import React, { useEffect, useState } from 'react';
 import Header from '../../components/Header';
 import Recipe from '../../components/Recipe';
 
+import ModalAddFood from '../../components/ModalAddFood';
+
 import api from '../../services/api';
 
 import { RecipesContainer } from './styles';
@@ -19,6 +21,7 @@ interface IRecipe {
 
 const Dashboard: React.FC = () => {
   const [recipes, setRecipes] = useState<IRecipe[]>([]);
+  const [modalOpen, setModalOpen] = useState(false);
 
   useEffect(() => {
     async function loadRecipes(): Promise<void> {
@@ -28,9 +31,22 @@ const Dashboard: React.FC = () => {
     loadRecipes();
   }, []);
 
+  function handleAddFood(): void {
+    console.log('testando');
+  }
+
+  function toggleModal(): void {
+    setModalOpen(!modalOpen);
+  }
+
   return (
     <>
-      <Header />
+      <Header openModal={toggleModal} />
+      <ModalAddFood
+        isOpen={modalOpen}
+        setIsOpen={toggleModal}
+        handleAddFood={handleAddFood}
+      />
       <RecipesContainer>
         {recipes &&
           recipes.map(recipe => <Recipe key={recipe.id} recipe={recipe} />)}

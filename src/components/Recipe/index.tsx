@@ -18,10 +18,6 @@ interface IProps {
 }
 
 const Recipe: React.FC<IProps> = ({ recipe }) => {
-  function teste() {
-    console.log('oi');
-  }
-
   return (
     <Container>
       <header className="card">
