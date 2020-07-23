@@ -41,8 +41,8 @@ const ModalAddFood: React.FC<IModalProps> = ({
         <Input name="name" placeholder="Nome da Receita" />
         <Input name="type" placeholder="Tipo da Receita" />
         <Input name="image" placeholder="Cole o link da imagem aqui" />
+        <TextArea name="ingredients" placeholder="Ingredientes" />
         <TextArea name="instructions" placeholder="Modo de Preparo" />
-        <Input name="instructions" placeholder="Modo de Preparo" />
         <button type="submit">
           <p>Adicionar Receita</p>
         </button>

@@ -1,6 +1,8 @@
 import React, { useRef, useEffect, InputHTMLAttributes } from 'react';
 import { useField } from '@unform/core';
 
+import { Container } from './styles';
+
 interface IProps extends InputHTMLAttributes<HTMLTextAreaElement> {
   name: string;
 }
@@ -17,7 +19,11 @@ const TextAreaInput: React.FC<IProps> = ({ name, ...rest }) => {
     });
   }, [registerField, fieldName]);
 
-  return <textarea ref={inputRef} defaultValue={defaultValue} {...rest} />;
+  return (
+    <Container>
+      <textarea ref={inputRef} defaultValue={defaultValue} {...rest} />
+    </Container>
+  );
 };
 
 export default TextAreaInput;
