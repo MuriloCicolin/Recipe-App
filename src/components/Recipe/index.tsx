@@ -1,5 +1,5 @@
 import React from 'react';
-import { FiEdit, FiTrash } from 'react-icons/fi';
+import { FiEdit, FiTrash, FiEye } from 'react-icons/fi';
 
 import { Container } from './styles';
 
@@ -9,15 +9,23 @@ interface IRecipe {
   ingredients: string;
   instructions: string;
   name: string;
-  number_persons: number;
   type: string;
 }
 
 interface IProps {
   recipe: IRecipe;
+  handleEditRecipe: (food: IRecipe) => void;
+  handleDelete: (id: number) => {};
 }
 
-const Recipe: React.FC<IProps> = ({ recipe }) => {
+const Recipe: React.FC<IProps> = ({
+  recipe,
+  handleEditRecipe,
+  handleDelete,
+}) => {
+  function setEditingRecipe(): void {
+    handleEditRecipe(recipe);
+  }
   return (
     <Container>
       <header className="card">
@@ -27,10 +35,21 @@ const Recipe: React.FC<IProps> = ({ recipe }) => {
 
           <div>
             <button type="button" className="button-icon">
+              <FiEye />
+            </button>
+            <button
+              onClick={() => setEditingRecipe()}
+              type="button"
+              className="button-icon"
+            >
               <FiEdit />
             </button>
 
-            <button type="button" className="button-icon">
+            <button
+              type="button"
+              className="button-icon"
+              onClick={() => handleDelete(recipe.id)}
+            >
               <FiTrash />
             </button>
           </div>

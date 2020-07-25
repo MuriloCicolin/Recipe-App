@@ -13,26 +13,38 @@ interface IRecipe {
   ingredients: string;
   instructions: string;
   name: string;
-  number_persons: number;
+
   type: string;
+}
+
+interface ICreateRecipe {
+  name: string;
+  image: string;
+  type: string;
+  instructions: string;
+  ingredients: string;
 }
 
 interface IModalProps {
   isOpen: boolean;
   setIsOpen: () => void;
-  handleAddFood: () => void;
+  handleAddRecipe: (recipe: Omit<IRecipe, 'id'>) => void;
 }
 
-const ModalAddFood: React.FC<IModalProps> = ({
+const ModalAddRecipe: React.FC<IModalProps> = ({
   isOpen,
   setIsOpen,
-  handleAddFood,
+  handleAddRecipe,
 }) => {
   const formRef = useRef<FormHandles>(null);
 
-  const handleSubmit = useCallback(() => {
-    console.log('oi');
-  }, []);
+  const handleSubmit = useCallback(
+    async (data: ICreateRecipe) => {
+      handleAddRecipe(data);
+      setIsOpen();
+    },
+    [handleAddRecipe, setIsOpen],
+  );
 
   return (
     <Modal isOpen={isOpen} setIsOpen={setIsOpen}>
@@ -51,4 +63,4 @@ const ModalAddFood: React.FC<IModalProps> = ({
   );
 };
 
-export default ModalAddFood;
+export default ModalAddRecipe;

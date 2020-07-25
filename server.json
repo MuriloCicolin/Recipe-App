@@ -1,40 +1,12 @@
 {
   "recipes": [
     {
-      "id": 1,
-      "name": "Bife a Milanesa",
-      "type": "Almoço",
-      "numper_persons": 2,
-      "ingredients": "1 kg de carne, 2 pacotes de arroz, 1 saco de feijão",
-      "instructions": "Deixar de molho por 5 minutos, fazer o preparo com teste de comida",
-      "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
-    },
-    {
-      "id": 2,
-      "name": "Chapa louca",
-      "type": "Janta",
-      "numper_persons": 3,
-      "ingredients": "1 kg de carne, 2 pacotes de arroz, 1 saco de feijão",
-      "instructions": "Deixar de molho por 5 minutos, fazer o preparo com teste de comida",
-      "image": "https://images.unsplash.com/photo-1493770348161-369560ae357d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
-    },
-    {
-      "id": 3,
-      "name": "Salmão Grelhado",
-      "type": "Almoço",
-      "numper_persons": 1,
-      "ingredients": "1 kg de carne, 2 pacotes de arroz, 1 saco de feijão",
-      "instructions": "Deixar de molho por 5 minutos, fazer o preparo com teste de comida",
-      "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60"
-    },
-    {
-      "id": 4,
-      "name": "Bife a Milanesa",
-      "type": "Almoço",
-      "numper_persons": 2,
-      "ingredients": "1 kg de carne, 2 pacotes de arroz, 1 saco de feijão",
-      "instructions": "Deixar de molho por 5 minutos, fazer o preparo com teste de comida",
-      "image": "https://images.unsplash.com/photo-1432139555190-58524dae6a55?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60"
+      "name": "Pão francês",
+      "type": "Café da manhã",
+      "image": "https://amopaocaseiro.com.br/wp-content/uploads/2020/01/pao-caseiro-para-iniciantes_02-840x560.jpg",
+      "ingredients": "360 g (3 xícaras) de farinha de trigo\n230 g (1 xícara) de água\n4 g (½ sachê) de fermento biológico seco\n7 g (½ colher de sopa) de sal",
+      "instructions": "1 . Em uma tigela grande, adicione 360 gramas de farinha de trigo. Isso equivale a aproximadamente 3 xícaras. Use qualquer farinha de trigo que você encontrar no mercado, só não pode ser aquelas que já vem com fermento. Aqui no canal tem um vídeo onde eu indico as marcas de farinha que mais eu utilizo\n\n2. Nessa receita vamos usar o fermento biológico seco instantâneo, que vem em um sachê de 10 g. Se você só tiver o fermento biológico fresco, aquele pastoso vendido em tablete, multiplique a quantidade de fermento por 3\n",
+      "id": 1
     }
   ]
 }
