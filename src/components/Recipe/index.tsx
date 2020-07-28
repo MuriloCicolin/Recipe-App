@@ -1,6 +1,7 @@
 import React from 'react';
 import { FiEdit, FiTrash, FiEye } from 'react-icons/fi';
 
+import { Link } from 'react-router-dom';
 import { Container } from './styles';
 
 interface IRecipe {
@@ -35,7 +36,9 @@ const Recipe: React.FC<IProps> = ({
 
           <div>
             <button type="button" className="button-icon">
-              <FiEye />
+              <Link to={`recipes/${recipe.id}`} style={{ color: '#EEE' }}>
+                <FiEye />
+              </Link>
             </button>
             <button
               onClick={() => setEditingRecipe()}

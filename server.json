@@ -7,6 +7,22 @@
       "ingredients": "360 g (3 xícaras) de farinha de trigo\n230 g (1 xícara) de água\n4 g (½ sachê) de fermento biológico seco\n7 g (½ colher de sopa) de sal",
       "instructions": "1 . Em uma tigela grande, adicione 360 gramas de farinha de trigo. Isso equivale a aproximadamente 3 xícaras. Use qualquer farinha de trigo que você encontrar no mercado, só não pode ser aquelas que já vem com fermento. Aqui no canal tem um vídeo onde eu indico as marcas de farinha que mais eu utilizo\n\n2. Nessa receita vamos usar o fermento biológico seco instantâneo, que vem em um sachê de 10 g. Se você só tiver o fermento biológico fresco, aquele pastoso vendido em tablete, multiplique a quantidade de fermento por 3\n",
       "id": 1
+    },
+    {
+      "name": "Bolo de Cenoura",
+      "type": "Café da manhã",
+      "image": "https://img.cybercook.com.br/receitas/975/bolo-de-cenoura-31-600x600.jpeg",
+      "ingredients": "1/2 xícara (chá) de óleo\n3 cenouras médias raladas\n4 ovos\n2 xícaras (chá) de açúcar\n2 e 1/2 xícaras (chá) de farinha de trigo\n1 colher (sopa) de fermento em pó",
+      "instructions": "Em um liquidificador, adicione a cenoura, os ovos e o óleo, depois misture.\n\nAcrescente o açúcar e bata novamente por 5 minutos.\n\nEm uma tigela ou na batedeira, adicione a farinha de trigo e depois misture novamente.\n\nAcrescente o fermento e misture lentamente com uma colher.\n\nAsse em um forno preaquecido a 180° C por aproximadamente 40 minutos.",
+      "id": 2
+    },
+    {
+      "name": "Bolinho de Bacalhau",
+      "type": "Almoço",
+      "image": "https://cdn.panelinha.com.br/receita/955335600000-Bolinho-de-bacalhau.jpg",
+      "ingredients": "250 g de bacalhau\n250 g de batata\n2 colheres (sopa) de farinha de trigo\n1 cebola picada\n2 dentes de alho picados\n3 colheres (sopa) de azeite\n1 xícara (chá) de farinha de rosca\n½ xícara (chá) de salsinha picada\n1 litro de óleo\nsal e pimenta-do-reino moída na hora a gosto",
+      "instructions": "Se o bacalhau estiver salgado, coloque-o dentro de uma tigela com bastante água. Troque a água da tigela de 1 em 1 hora, durante 5 horas. \nDescasque as batatas, corte-as em pedaços médios e coloque numa panela com água. Leve ao fogo alto. \nQuando ferver, marque 15 minutos e depois desligue o fogo (as batatas devem ficar bem macias). Escorra a água e transfira as batatas para um prato grande. Deixe descansar por 5 minutos para o excesso de água evaporar. \nRetire o bacalhau da tigela e coloque em uma panela, cubra com água e leve ao fogo alto. Quando ferver, deixe cozinhar por 5 minutos e desligue o fogo. Transfira o bacalhau para um prato e deixe esfriar. \nEnquanto o bacalhau esfria, passa as batatas pelo espremedor, ou desmanche com uma colher de pau, para formar um purê. \nQuando o bacalhau estiver frio desfie-o com as mãos. \nLeve uma panela ao fogo, junte o azeite e deixe aquecer. Em seguida, adicione a cebola e o alho. Refogue por 4 minutos, mexendo sempre. \nColoque o bacalhau desfiado na panela e misture muito bem. Deixe cozinhar por 5 minutos, mexendo de vez em quando. Desligue o fogo e deixe esfriar. \nMisture muito bem o bacalhau com a batata e a farinha. Tempere com sal, pimenta-do-reino e a salsinha.\nColoque a farinha de rosca num prato grande. Com as mãos, faça bolinhas com a massa de bacalhau do tamanho que quiser. Empane as bolinhas com a farinha de rosca, cobrindo cada uma muito bem.\nColoque o óleo numa panela grande e leve ao fogo para aquecer. Para saber quando o óleo está na temperatura certa, coloque um palito de fósforo dentro da panela. Assim que ele ascender, o óleo estará no ponto.\nCom uma escumadeira, retire o palito de dentro da panela e coloque alguns bolinhos para fritar. Não encha demais a panela, pois os bolinhos podem grudar. Frite por etapas.\nQuando os bolinhos estiverem bem dourados, retire-os da panela cuidadosamente com a escumadeira e coloque-os sobre um prato forrado com papel-toalha. Sirva bem quente.",
+      "id": 3
     }
   ]
 }

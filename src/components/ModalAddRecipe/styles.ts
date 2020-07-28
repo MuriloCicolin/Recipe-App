@@ -29,6 +29,11 @@ export const Form = styled(Unform)`
     padding: 14px;
     border-radius: 8px;
 
+    &:hover {
+      background: #393e46;
+      opacity: 0.9;
+    }
+
     p {
       color: #eee;
     }
