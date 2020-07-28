@@ -35,6 +35,9 @@ $ yarn install
 
 # Rode a Aplicação
 $ yarn start
+
+# Abra outro terminal entre na pasta do Recipe-App para executar o Json-Server 
+$ yarn json-server server.json -p 3333
 ```
 
 ## Autor
