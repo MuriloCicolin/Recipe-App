@@ -1,14 +1,6 @@
 {
   "recipes": [
     {
-      "name": "Pão francês",
-      "type": "Café da manhã",
-      "image": "https://amopaocaseiro.com.br/wp-content/uploads/2020/01/pao-caseiro-para-iniciantes_02-840x560.jpg",
-      "ingredients": "360 g (3 xícaras) de farinha de trigo\n230 g (1 xícara) de água\n4 g (½ sachê) de fermento biológico seco\n7 g (½ colher de sopa) de sal",
-      "instructions": "1 . Em uma tigela grande, adicione 360 gramas de farinha de trigo. Isso equivale a aproximadamente 3 xícaras. Use qualquer farinha de trigo que você encontrar no mercado, só não pode ser aquelas que já vem com fermento. Aqui no canal tem um vídeo onde eu indico as marcas de farinha que mais eu utilizo\n\n2. Nessa receita vamos usar o fermento biológico seco instantâneo, que vem em um sachê de 10 g. Se você só tiver o fermento biológico fresco, aquele pastoso vendido em tablete, multiplique a quantidade de fermento por 3\n",
-      "id": 1
-    },
-    {
       "name": "Bolo de Cenoura",
       "type": "Café da manhã",
       "image": "https://img.cybercook.com.br/receitas/975/bolo-de-cenoura-31-600x600.jpeg",
@@ -23,6 +15,30 @@
       "ingredients": "250 g de bacalhau\n250 g de batata\n2 colheres (sopa) de farinha de trigo\n1 cebola picada\n2 dentes de alho picados\n3 colheres (sopa) de azeite\n1 xícara (chá) de farinha de rosca\n½ xícara (chá) de salsinha picada\n1 litro de óleo\nsal e pimenta-do-reino moída na hora a gosto",
       "instructions": "Se o bacalhau estiver salgado, coloque-o dentro de uma tigela com bastante água. Troque a água da tigela de 1 em 1 hora, durante 5 horas. \nDescasque as batatas, corte-as em pedaços médios e coloque numa panela com água. Leve ao fogo alto. \nQuando ferver, marque 15 minutos e depois desligue o fogo (as batatas devem ficar bem macias). Escorra a água e transfira as batatas para um prato grande. Deixe descansar por 5 minutos para o excesso de água evaporar. \nRetire o bacalhau da tigela e coloque em uma panela, cubra com água e leve ao fogo alto. Quando ferver, deixe cozinhar por 5 minutos e desligue o fogo. Transfira o bacalhau para um prato e deixe esfriar. \nEnquanto o bacalhau esfria, passa as batatas pelo espremedor, ou desmanche com uma colher de pau, para formar um purê. \nQuando o bacalhau estiver frio desfie-o com as mãos. \nLeve uma panela ao fogo, junte o azeite e deixe aquecer. Em seguida, adicione a cebola e o alho. Refogue por 4 minutos, mexendo sempre. \nColoque o bacalhau desfiado na panela e misture muito bem. Deixe cozinhar por 5 minutos, mexendo de vez em quando. Desligue o fogo e deixe esfriar. \nMisture muito bem o bacalhau com a batata e a farinha. Tempere com sal, pimenta-do-reino e a salsinha.\nColoque a farinha de rosca num prato grande. Com as mãos, faça bolinhas com a massa de bacalhau do tamanho que quiser. Empane as bolinhas com a farinha de rosca, cobrindo cada uma muito bem.\nColoque o óleo numa panela grande e leve ao fogo para aquecer. Para saber quando o óleo está na temperatura certa, coloque um palito de fósforo dentro da panela. Assim que ele ascender, o óleo estará no ponto.\nCom uma escumadeira, retire o palito de dentro da panela e coloque alguns bolinhos para fritar. Não encha demais a panela, pois os bolinhos podem grudar. Frite por etapas.\nQuando os bolinhos estiverem bem dourados, retire-os da panela cuidadosamente com a escumadeira e coloque-os sobre um prato forrado com papel-toalha. Sirva bem quente.",
       "id": 3
+    },
+    {
+      "name": "Escondidinho de carne seca",
+      "type": "Almoço/Janta",
+      "image": "https://img.itdg.com.br/images/recipes/000/190/188/272543/272543_original.jpg",
+      "ingredients": "1 kg de mandioca cozida\n1 lata de creme de leite com soro\n2 colheres de margarina\n1/2 kg de carne-seca dessalgada e cozida\n1 cebola média picadinha\n4 dentes de alho esmagados\n2 tomates sem casca e picados\nsal e pimenta a gosto\nqueijo ralado a gosto",
+      "instructions": "Esprema a mandioca ainda quente e leve em uma panela com a margarina e sal.\nQuando estiverem bem misturados acrescente o creme de leite, misture e reserve.\nRefogue a cebola e o alho em um fio de azeite.\nAcrescente a carne-seca desfiada e deixe fritar um pouco.\nAcrescente os tomates e deixe cozinhar até ficarem murchos e acerte o sal se achar necessário.\nEm um refratário untado com azeite, coloque uma camada do purê de mandioca, a carne seca e termine com o restante do purê.\nPolvilhe com queijo parmesão ralado e leve ao forno pra gratinar.",
+      "id": 4
+    },
+    {
+      "name": "Estrogonofe de Camarão",
+      "type": "Jantar",
+      "image": "https://img.itdg.com.br/tdg/images/recipes/000/001/971/39233/39233_original.jpg?mode=crop&width=710&height=400",
+      "ingredients": "1 colher (sopa) de manteiga\n1 cebola média ralada\n1/2kg de camarão médio limpo\nSal e pimenta do reino\n4 colheres (sopa) de conhaque\n100g de cogumelos em conserva picados\n3 colheres (sopa) de catchup\n1 colher (sopa) de mostarda\n1 caixinha de creme de leite",
+      "instructions": "Limpe os camarões, retire as cascas e lave muito bem em água e limão, escorra e reserve.\nAqueça a manteiga e doure nela a cebola.\nJunte os camarões e mexa bem, tempere com sal e pimenta.\nAqueça o conhaque em uma concha até este pegar fogo e despeje-o sobre os camarões, flambando-os.\nJunte o cogumelo, o catchup, a mostarda e deixe ferver por cerca de 5 minutos.\nNo momento de servir, junte o creme de leite, mexa bem e aqueça sem ferver.\nSirva o strogonoff acompanhado de arroz branco e batata palha.",
+      "id": 5
+    },
+    {
+      "name": "Fricassê de Frango",
+      "type": "Almoço/Jantar",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQUpaMJITwa8gfQT1i9FufFKv-fRFsynDTOzA&usqp=CAU",
+      "ingredients": "1 lata de creme de leite\n1 lata de milho verde\n1 copo de requeijão cremoso\n100 g de azeitona sem caroço\n2 peitos de frango desfiados\n200 g de mussarela fatiada\n100 g de batata palha\n1 xícara de água\n1 pitada de sal",
+      "instructions": "Bata no liquidificador o milho, o requeijão, o creme de leite e a água.\n\nRefogue o creme do liquidificador com o frango desfiado, as azeitonas e o sal até ficar com uma textura espessa.\n\nColoque o refogado numa assadeira, cubra com mussarela e espalhe a batata palha por cima.\n\nLeve ao forno até borbulhar.\n\nSirva com arroz branco.",
+      "id": 6
     }
   ]
 }
