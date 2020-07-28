@@ -14,9 +14,7 @@
 -  [axios](https://github.com/axios/axios)
 -  [json-server](https://github.com/typicode/json-server)
 
-## Como Rodar a Aplicação
-
-
+## Como Usar
 
 ```bash
 # Clone o repositório
@@ -30,4 +28,12 @@ $ yarn install
 
 # Rode a Aplicação
 $ yarn start
+```
 
+## Autor
+Feito por Murilo Cicolin! Entre em contato <br/>
+ [![Linkedin Badge](https://img.shields.io/badge/-Murilo-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/murilo-cicolin/)](https://www.linkedin.com/in/murilo-cicolin/) 
+[![Gmail Badge](https://img.shields.io/badge/-mu.cicolin@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:mu.cicolin@gmail.com)](mailto:mu.cicolin@gmail.com)
+
+
+ 
