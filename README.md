@@ -2,7 +2,7 @@
 <p align="center">Recipe App é uma aplicação para cadastrar, editar, listar e deletar receitas.</p>
 
 <h1 align="center">
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./github/screenshot.png" />
+  <img alt="Recipe-App" title="#Recipe-App" src="./github/screenshot.png" />
 </h1>
 
 <p align="center">
