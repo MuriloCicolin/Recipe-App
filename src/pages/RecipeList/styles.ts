@@ -1,4 +1,14 @@
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
+import { FiLoader } from 'react-icons/fi';
+
+const animateLoading = keyframes`
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+`;
 
 export const Container = styled.div`
   margin: 0 auto;
@@ -74,4 +84,10 @@ export const InstructionsContainer = styled.div`
   p {
     line-height: 1.2;
   }
+`;
+
+export const Loader = styled(FiLoader)`
+  display: block;
+  margin: 200px auto;
+  animation: ${animateLoading} 2s linear infinite;
 `;

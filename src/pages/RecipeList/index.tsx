@@ -10,6 +10,7 @@ import {
   IngredientsContainer,
   SectionContainer,
   InstructionsContainer,
+  Loader,
 } from './styles';
 
 interface IRecipeParams {
@@ -27,6 +28,7 @@ interface IRecipe {
 
 const RecipeList: React.FC = () => {
   const [recipe, setRecipe] = useState<IRecipe>({} as IRecipe);
+  const [loading, setLoading] = useState(true);
 
   const { params } = useRouteMatch<IRecipeParams>();
   const history = useHistory();
@@ -35,34 +37,41 @@ const RecipeList: React.FC = () => {
     api
       .get(`/recipes/${params.recipe}`)
       .then(response => setRecipe(response.data));
+    setLoading(false);
   }, [params.recipe]);
 
   return (
-    <Container>
-      <header>
-        <nav>
-          <FiArrowLeft size={45} onClick={history.goBack} />
-          <h1>{recipe.name}</h1>
-        </nav>
-      </header>
-      <ContainerImage>
-        <img src={recipe.image} alt="" />
-      </ContainerImage>
-      <SectionContainer>
-        <div className="recipe-type">
-          <h2>Tipo de Receita: </h2>
-          <p>{recipe.type}</p>
-        </div>
-        <IngredientsContainer>
-          <h2>Ingredientes: </h2>
-          <p>{recipe.ingredients}</p>
-        </IngredientsContainer>
-        <InstructionsContainer>
-          <h2>Modo de Preparo: </h2>
-          <p>{recipe.instructions}</p>
-        </InstructionsContainer>
-      </SectionContainer>
-    </Container>
+    <>
+      {loading ? (
+        <Loader size={55} />
+      ) : (
+        <Container>
+          <header>
+            <nav>
+              <FiArrowLeft size={45} onClick={history.goBack} />
+              <h1>{recipe.name}</h1>
+            </nav>
+          </header>
+          <ContainerImage>
+            <img src={recipe.image} alt="" />
+          </ContainerImage>
+          <SectionContainer>
+            <div className="recipe-type">
+              <h2>Tipo de Receita: </h2>
+              <p>{recipe.type}</p>
+            </div>
+            <IngredientsContainer>
+              <h2>Ingredientes: </h2>
+              <p>{recipe.ingredients}</p>
+            </IngredientsContainer>
+            <InstructionsContainer>
+              <h2>Modo de Preparo: </h2>
+              <p>{recipe.instructions}</p>
+            </InstructionsContainer>
+          </SectionContainer>
+        </Container>
+      )}
+    </>
   );
 };
 

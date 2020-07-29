@@ -9,7 +9,7 @@ import ModalAddRecipe from '../../components/ModalAddRecipe';
 
 import api from '../../services/api';
 
-import { RecipesContainer } from './styles';
+import { RecipesContainer, Loader } from './styles';
 
 interface IRecipe {
   id: number;
@@ -25,11 +25,13 @@ const Dashboard: React.FC = () => {
   const [editingRecipe, setEditingRecipe] = useState<IRecipe>({} as IRecipe);
   const [modalOpen, setModalOpen] = useState(false);
   const [editModalOpen, setEditModalOpen] = useState(false);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     async function loadRecipes(): Promise<void> {
       const response = await api.get('/recipes');
       setRecipes(response.data);
+      setLoading(false);
     }
     loadRecipes();
   }, []);
@@ -101,17 +103,22 @@ const Dashboard: React.FC = () => {
         editingRecipe={editingRecipe}
         handleUpdateRecipe={handleUpdateRecipe}
       />
-      <RecipesContainer>
-        {recipes &&
-          recipes.map(recipe => (
-            <Recipe
-              key={recipe.id}
-              recipe={recipe}
-              handleEditRecipe={handleEditRecipe}
-              handleDelete={handleDeleteRecipe}
-            />
-          ))}
-      </RecipesContainer>
+
+      {loading ? (
+        <Loader className="loader" size={60} />
+      ) : (
+        <RecipesContainer>
+          {recipes &&
+            recipes.map(recipe => (
+              <Recipe
+                key={recipe.id}
+                recipe={recipe}
+                handleEditRecipe={handleEditRecipe}
+                handleDelete={handleDeleteRecipe}
+              />
+            ))}
+        </RecipesContainer>
+      )}
     </>
   );
 };

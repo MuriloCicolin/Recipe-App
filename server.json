@@ -17,28 +17,20 @@
       "id": 3
     },
     {
-      "name": "Escondidinho de carne seca",
-      "type": "Almoço/Janta",
-      "image": "https://img.itdg.com.br/images/recipes/000/190/188/272543/272543_original.jpg",
-      "ingredients": "1 kg de mandioca cozida\n1 lata de creme de leite com soro\n2 colheres de margarina\n1/2 kg de carne-seca dessalgada e cozida\n1 cebola média picadinha\n4 dentes de alho esmagados\n2 tomates sem casca e picados\nsal e pimenta a gosto\nqueijo ralado a gosto",
-      "instructions": "Esprema a mandioca ainda quente e leve em uma panela com a margarina e sal.\nQuando estiverem bem misturados acrescente o creme de leite, misture e reserve.\nRefogue a cebola e o alho em um fio de azeite.\nAcrescente a carne-seca desfiada e deixe fritar um pouco.\nAcrescente os tomates e deixe cozinhar até ficarem murchos e acerte o sal se achar necessário.\nEm um refratário untado com azeite, coloque uma camada do purê de mandioca, a carne seca e termine com o restante do purê.\nPolvilhe com queijo parmesão ralado e leve ao forno pra gratinar.",
-      "id": 4
-    },
-    {
-      "name": "Estrogonofe de Camarão",
-      "type": "Jantar",
-      "image": "https://img.itdg.com.br/tdg/images/recipes/000/001/971/39233/39233_original.jpg?mode=crop&width=710&height=400",
-      "ingredients": "1 colher (sopa) de manteiga\n1 cebola média ralada\n1/2kg de camarão médio limpo\nSal e pimenta do reino\n4 colheres (sopa) de conhaque\n100g de cogumelos em conserva picados\n3 colheres (sopa) de catchup\n1 colher (sopa) de mostarda\n1 caixinha de creme de leite",
-      "instructions": "Limpe os camarões, retire as cascas e lave muito bem em água e limão, escorra e reserve.\nAqueça a manteiga e doure nela a cebola.\nJunte os camarões e mexa bem, tempere com sal e pimenta.\nAqueça o conhaque em uma concha até este pegar fogo e despeje-o sobre os camarões, flambando-os.\nJunte o cogumelo, o catchup, a mostarda e deixe ferver por cerca de 5 minutos.\nNo momento de servir, junte o creme de leite, mexa bem e aqueça sem ferver.\nSirva o strogonoff acompanhado de arroz branco e batata palha.",
-      "id": 5
-    },
-    {
       "name": "Fricassê de Frango",
       "type": "Almoço/Jantar",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQUpaMJITwa8gfQT1i9FufFKv-fRFsynDTOzA&usqp=CAU",
       "ingredients": "1 lata de creme de leite\n1 lata de milho verde\n1 copo de requeijão cremoso\n100 g de azeitona sem caroço\n2 peitos de frango desfiados\n200 g de mussarela fatiada\n100 g de batata palha\n1 xícara de água\n1 pitada de sal",
       "instructions": "Bata no liquidificador o milho, o requeijão, o creme de leite e a água.\n\nRefogue o creme do liquidificador com o frango desfiado, as azeitonas e o sal até ficar com uma textura espessa.\n\nColoque o refogado numa assadeira, cubra com mussarela e espalhe a batata palha por cima.\n\nLeve ao forno até borbulhar.\n\nSirva com arroz branco.",
       "id": 6
+    },
+    {
+      "name": "Bombom de travessa",
+      "type": "Sobremesa",
+      "image": "https://img.itdg.com.br/tdg/images/recipes/000/049/802/297847/297847_original.jpg?mode=crop&width=710&height=400",
+      "ingredients": "250 g de chocolate ao leite\n250 g de chocolate meio amargo\n2 latas de leite condensado\n2 latas de creme de leite\n2 colheres de margarina\n2 caixas de morango\n",
+      "instructions": "Coloque as latas de leite condensado em uma panela com a manteiga e faça uma massa como um brigadeiro mole.\n\nColoque em uma travessa e, por cima deste brigadeiro mole, coloque os morangos cortados ao meio.\n\nReserve para fazer a cobertura.\n\nPara fazer a cobertura, rale o chocolate ao leite e o meio amargo e misture ao creme de leite.\n\nMisture e coloque no micro-ondas durante 1 minuto.\n\nRetire e mexa\n\nColoque de novo no micro-ondas por mais 1 minuto.\n\nDespeje a cobertura por cima dos morangos e leve à geladeira coberta por papel-filme.",
+      "id": 7
     }
   ]
 }
