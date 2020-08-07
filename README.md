@@ -1,5 +1,6 @@
 <h1 align="center">Recipe App</h1
 <p align="center">Recipe App é uma aplicação para cadastrar, editar, listar e deletar receitas.</p>
+<p align="center">https://recipes-appon.netlify.app/</p>
 
 <h1 align="center">
   <img alt="Recipe-App" title="#Recipe-App" src="./github/screenshot.png" />
